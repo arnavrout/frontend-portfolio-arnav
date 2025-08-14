@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background: #113F67;
+  color: #FDF5AA;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.arnav-logo {
+    width: 150px;
+    height: 100px;
+}

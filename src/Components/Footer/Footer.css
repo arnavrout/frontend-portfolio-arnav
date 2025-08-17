@@ -85,6 +85,9 @@
     }
     .footer-top-right {
         flex-direction: column;
-        align-items: flex-end;
+        align-items: center;
     }   
+    .footer-subscribe {
+        
+    }
 }

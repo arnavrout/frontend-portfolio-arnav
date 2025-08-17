@@ -87,13 +87,14 @@
         margin: 10px 0px;
     }
     .hero-action {
+        flex-direction: column;
         gap: 16px;
         font-size: 18px;
         font-weight: 500;
         margin-bottom: 50px;
     }
     .hero-connect {
-        padding: 20px 30px;
+        padding: 20px 45px;
         border-radius: 40px;
     }
     .hero-resume {

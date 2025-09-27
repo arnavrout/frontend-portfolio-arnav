@@ -8,6 +8,11 @@ import angularImage from '../assets/skills-angular-image.png'
 import nodeImage from '../assets/skills-node-image.png'
 import expressImage from '../assets/skills-express-image.jpg'
 
+import nextImage from '../assets/skills-next-image.png'
+import reactnativeImage from '../assets/skills-native-image.png'
+import mysqlImage from '../assets/skills-mysql-image.png'
+import pythonImage from '../assets/skills-python-image.jpeg'
+
 const mywork_data = [
     {
         w_no:1,
@@ -31,23 +36,43 @@ const mywork_data = [
     },
     {
         w_no:5,
+        w_name:"Next Js",
+        w_img:nextImage
+    },
+    {
+        w_no:6,
+        w_name:"React Native",
+        w_img:reactnativeImage
+    },
+    {
+        w_no:7,
         w_name:"TypeScript",
         w_img:typescriptImage
     },
     {
-        w_no:6,
+        w_no:8,
         w_name:"Angular",
         w_img:angularImage
     },
     {
-        w_no:7,
+        w_no:9,
         w_name:"Node Js",
         w_img:nodeImage
     },
     {
-        w_no:8,
+        w_no:10,
         w_name:"Express Js",
         w_img:expressImage
+    },
+     {
+        w_no:11,
+        w_name:"MySql",
+        w_img:mysqlImage
+    },
+     {
+        w_no:12,
+        w_name:"Python",
+        w_img:pythonImage
     },
 ]
  

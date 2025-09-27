@@ -1,0 +1,117 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+
+.projects-title {
+    position: relative;
+}
+
+.projects-title h1 {
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.projects-title img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.project-one {
+    background-color: transparent;
+    border: 2px solid; 
+    border-image: linear-gradient(90deg, #FF7A30, #640D5F) 1; 
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-one:hover {
+    transform: scale(1.10);
+    border: 4px solid #FF7A30;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.project-header strong {
+    font-size: 17px;
+    background: linear-gradient(200deg, #FF7A30, #640D5F 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.project-summary {
+    margin-bottom: 15px;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #FDF5AA;
+}
+
+.project-one ul {
+    padding-left: 20px;
+    list-style-type: disc;
+    color: #FDF5AA;
+    margin-bottom: 15px;
+}
+
+.project-one li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.project-links {
+    display: flex;
+    gap: 20px;
+}
+
+.project-links a {
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(90deg, #FF7A30, #640D5F);
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: background 0.3s ease;
+}
+
+.project-links a:hover {
+    background: linear-gradient(90deg, #640D5F, #FF7A30);
+}
+
+@media (max-width: 768px) {
+    .projects {
+        align-items: start;
+        gap: 50px;
+        margin: 100px 70px;
+    }
+    .projects-title h1 {
+        padding: 0;
+        font-size: 50px;
+    }
+    .projects-title img {
+        width: 130px;
+        margin-right: -20px;
+    }
+}

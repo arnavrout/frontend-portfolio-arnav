@@ -14,6 +14,51 @@ const Projects = () => {
       <div className="projects-container">
         <div className="project-one">
           <div className="project-header">
+            <strong>Travel with Arnav</strong>
+            <strong>AI-Powered Travel Itinerary Planner</strong>
+          </div>
+          <p className="project-summary">
+            Travel with Arnav is an AI-powered web app that helps you plan your entire vacation itinerary 
+            based on your preferences — from destinations and activities to food recommendations and cultural insights. 
+            It acts as your personal travel companion, making trip planning intelligent, interactive, and effortless.
+          </p>
+
+          <ul>
+            <li>
+              Built using <strong>React</strong>, <strong>TypeScript</strong>, <strong>Vite</strong>, and <strong>Tailwind CSS </strong> 
+              with <strong>Framer Motion</strong> for smooth animations and a responsive UI.
+            </li>
+            <li>
+              Integrated <strong>Google Gemini AI</strong> to generate personalized travel itineraries based on 
+              destination, duration, budget, and user preferences.
+            </li>
+            <li>
+              Utilized <strong>Supabase</strong> for database and authentication with <strong>React Router DOM</strong>, 
+              <strong>React Markdown</strong>, and <strong>Lucide React</strong>; working on more features for future enhancements.
+            </li>
+          </ul>
+
+          <div className="project-links">
+            <a 
+              href="https://github.com/arnavrout/travel-with-arnav" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              GitHub Repo
+            </a>
+            <a 
+              href="https://travel-with-arnav.vercel.app/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              Live Project
+            </a>
+          </div>
+        </div>
+
+
+        <div className="project-one">
+          <div className="project-header">
             <strong>Medi-Connect</strong>
             <strong>Healthcare Platform</strong>
           </div>
